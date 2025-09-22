@@ -1,7 +1,7 @@
 # Prompt for user input
-task = input("Please enter your task for today: ")
-time_bound = input("Is this task time-bound? (yes/no): ").lower()
-priority = input("What is the priority of this task? (high/medium/low): ").lower()
+task = input("Enter your task: ")
+priority = input("Priority (high/medium/low) ").lower()
+time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 
 # Process and provide reminder using Match Case and if statement
